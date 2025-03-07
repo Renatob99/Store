@@ -88,7 +88,7 @@ p {
 }
 
 .logo {
-    width: 30px;
+    width: 10px;
     height: 30px;
     margin-right: 20px;
 }
@@ -163,15 +163,15 @@ p {
 
     /* Ajusta o tamanho das logos */
     .logo {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
         margin-right: 10px;
     }
 
     #foto {
         width: 25%; /* Ajusta a largura da imagem de foto */
         margin-right: -80%;
-        margin-bottom: -42%;
+        margin-bottom: -52%;
     }
 }
 
