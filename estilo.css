@@ -44,7 +44,7 @@ p {
 }
 
 .tab {
-    background: linear-gradient(to bottom, #cc1212, #dddddd); /* Gradiente nas abas */
+    background: linear-gradient(to bottom, #0e0429, #dddddd); /* Gradiente nas abas */
     color: black;
     border: none;
     padding: 10px 20px;
