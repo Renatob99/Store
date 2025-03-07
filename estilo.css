@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', 'Noto';
-    background: linear-gradient(to bottom, #1a2939, #4682B4); /* Gradiente no fundo */
+    background: linear-gradient(to bottom, #1d2c3a, #4682B4); /* Gradiente no fundo */
     color: white;
     text-align: center;
     margin: 0;
@@ -170,8 +170,8 @@ p {
 
     #foto {
         width: 25%; /* Ajusta a largura da imagem de foto */
-        margin-right: -10%;
-        margin-bottom: -50%;
+        margin-right: -80%;
+        margin-bottom: -37%;
     }
 }
 
