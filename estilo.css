@@ -157,8 +157,8 @@ p {
     }
 
     .profile-pic {
-        width: 80px; /* Ajusta o tamanho da imagem de perfil */
-        height: 80px;
+        width: 110px; /* Ajusta o tamanho da imagem de perfil */
+        height: 110px;
     }
 
     /* Ajusta o tamanho das logos */
@@ -171,7 +171,7 @@ p {
     #foto {
         width: 25%; /* Ajusta a largura da imagem de foto */
         margin-right: -77%;
-        margin-bottom: -44%;
+        margin-bottom: -42%;
     }
 }
 
