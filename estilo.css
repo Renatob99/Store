@@ -44,7 +44,7 @@ p {
 }
 
 .tab {
-    background: linear-gradient(to bottom, #04290f, #dddddd); /* Gradiente nas abas */
+    background: linear-gradient(to bottom, #04f94a, #dddddd); /* Gradiente nas abas */
     color: black;
     border: none;
     padding: 10px 20px;
@@ -171,7 +171,7 @@ p {
     #foto {
         width: 25%; /* Ajusta a largura da imagem de foto */
         margin-right: -77%;
-        margin-bottom: -40%;
+        margin-bottom: -41%;
     }
 }
 
