@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    
+    font-family:'Poppins', 'Noto' ;
+    background: linear-gradient(to bottom, #1a2939, #4682B4); /* Gradiente no fundo */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(242, 242, 245);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 30pt;
+}
+
+p {
+    font-size: 18px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.tab {
+    background: linear-gradient(to bottom, #ffffff, #dddddd); /* Gradiente nas abas */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 0 5px;
+    transition: 0.3s;
+    height: 60px;
+    width: 100px;
+}
+
+.tab.active {
+    background: linear-gradient(to bottom, #005f9e, #003f6b); /* Gradiente nas abas ativas */
+    color: white;
+    height: 60px;
+    width: 100px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)); /* Gradiente nos links */
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.link-item:hover {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)); /* Gradiente nos links ao passar o mouse */
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.product {
+    background: linear-gradient(to bottom, #ffffff, #eeeeee); /* Gradiente nos produtos */
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+#foto{
+    width: 30%;
+    margin-right: -131%;
+    margin-bottom: -58%;
+}
+.logo{
+    width: 18%;
+    height: 25%;
+    border-radius: 20%;
+}
