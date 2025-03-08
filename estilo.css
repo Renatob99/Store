@@ -52,11 +52,11 @@ p {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 10px;
     margin: 0 5px;
     transition: 0.3s;
     height: 45px;
-    width: 160px;
+    width: 100px;
 }
 
 .tab.active {
@@ -118,8 +118,8 @@ p {
 
 #foto {
     width: 30%;
-    margin-right: -171%;
-    margin-bottom: -58%;
+    margin-right: -121%;
+    margin-bottom: -50%;
     
 }
 
@@ -148,9 +148,7 @@ p {
 
     .tabs {
          /* Torna as abas verticais em telas pequenas */
-        display: flex;
-        justify-content: space-around;
-        margin: 10px 0;
+        flex-direction: row;
 
 }
     }
@@ -202,7 +200,7 @@ p {
 
     .tab {
         font-size: 18px; /* Ajuste do tamanho da fonte das abas */
-        width: 30%; /* As abas ocupam mais largura */
+        width: 28%; /* As abas ocupam mais largura */
     }
 
     .profile-pic {
