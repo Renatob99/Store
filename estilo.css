@@ -218,7 +218,7 @@ p {
     }
     #foto {
         width: 20%; /* Ajusta a largura da imagem de foto */
-        margin-right: -126%;
-        margin-bottom: -83%;
+        margin-right: -100%;
+        margin-bottom: -63%;
     }
 }
