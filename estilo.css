@@ -148,7 +148,10 @@ p {
 
     .tabs {
         flex-direction: row; /* Torna as abas verticais em telas pequenas */
-        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0;
+}
     }
 
     .tab {
