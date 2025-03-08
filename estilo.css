@@ -3,8 +3,8 @@
 
 body {
     font-family: 'Poppins', 'Noto';
-    background: linear-gradient(to bottom, #1d2c3a, #4682b4); /* Gradiente no fundo */
-    color: white;
+    background: linear-gradient(to bottom, #000000, #4682b4); /* Gradiente no fundo */
+    color: white;              /*#1d2c3a,*/
     text-align: center;
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ p {
     margin: 0 5px;
     transition: 0.3s;
     height: 60px;
-    width: 100px;
+    width: 80px;
 }
 
 .tab.active {
@@ -150,13 +150,16 @@ p {
          /* Torna as abas verticais em telas pequenas */
         display: flex;
         justify-content: space-evenly;
-        margin: 20px 0;
+        margin: 10px 0;
+
 }
     }
 
     .tab {
-        font-size: 18px; /* Ajusta o tamanho da fonte das abas */
-        margin: 5px 0; /* Reduz a margem entre as abas */
+        
+        font-size: 14px; /* Ajusta o tamanho da fonte das abas */
+        margin: 20px 0; /* Reduz a margem entre as abas */
+    
     }
 
     .product {
@@ -178,7 +181,7 @@ p {
 
     #foto {
         width: 25%; /* Ajusta a largura da imagem de foto */
-        margin-right: -82%;
+        margin-right: -87%;
         margin-bottom: -65%;
     }
 
@@ -200,7 +203,7 @@ p {
     }
 
     .tab {
-        font-size: 16px; /* Ajuste do tamanho da fonte das abas */
+        font-size: 14px; /* Ajuste do tamanho da fonte das abas */
         width: 80%; /* As abas ocupam mais largura */
     }
 
