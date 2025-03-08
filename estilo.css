@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', 'Noto';
-    background: linear-gradient(to bottom, #000000, #4682b4); /* Gradiente no fundo */
+    background: linear-gradient(to bottom, #ea0a0a, #4682b4); /* Gradiente no fundo */
     color: white;              /*#1d2c3a,*/
     text-align: center;
     margin: 0;
@@ -149,7 +149,7 @@ p {
     .tabs {
          /* Torna as abas verticais em telas pequenas */
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin: 10px 0;
 
 }
@@ -198,7 +198,7 @@ p {
 
     .tabs {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin: 20px 0;
     }
 
