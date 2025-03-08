@@ -118,7 +118,7 @@ p {
 
 #foto {
     width: 30%;
-    margin-right: -121%;
+    margin-right: -131%;
     margin-bottom: -50%;
     
 }
@@ -178,9 +178,9 @@ p {
     }
 
     #foto {
-        width: 25%; /* Ajusta a largura da imagem de foto */
-        margin-right: -67%;
-        margin-bottom: -60%;
+        width: 20%; /* Ajusta a largura da imagem de foto */
+        margin-right: -86%;
+        margin-bottom: -53%;
     }
 
 
@@ -215,5 +215,10 @@ p {
 
     .link-item {
         font-size: 16px;
+    }
+    #foto {
+        width: 20%; /* Ajusta a largura da imagem de foto */
+        margin-right: -126%;
+        margin-bottom: -83%;
     }
 }
