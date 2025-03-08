@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', 'Noto';
-    background: linear-gradient(to bottom, #ea0a0a, #4682b4); /* Gradiente no fundo */
+    background: linear-gradient(to bottom, #1d2c3a, #4682b4); /* Gradiente no fundo */
     color: white;              /*#1d2c3a,*/
     text-align: center;
     margin: 0;
@@ -52,11 +52,11 @@ p {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 0px 0px 0px 0px;
     margin: 0 5px;
     transition: 0.3s;
-    height: 60px;
-    width: 80px;
+    height: 45px;
+    width: 160px;
 }
 
 .tab.active {
@@ -157,7 +157,7 @@ p {
 
     .tab {
         
-        font-size: 14px; /* Ajusta o tamanho da fonte das abas */
+        font-size: 18px; /* Ajusta o tamanho da fonte das abas */
         margin: 20px 0; /* Reduz a margem entre as abas */
     
     }
@@ -197,14 +197,12 @@ p {
     }
 
     .tabs {
-        display: flex;
-        justify-content: space-around;
-        margin: 20px 0;
+        flex-direction: row;
     }
 
     .tab {
-        font-size: 14px; /* Ajuste do tamanho da fonte das abas */
-        width: 80%; /* As abas ocupam mais largura */
+        font-size: 18px; /* Ajuste do tamanho da fonte das abas */
+        width: 30%; /* As abas ocupam mais largura */
     }
 
     .profile-pic {
