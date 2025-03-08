@@ -147,7 +147,7 @@ p {
     }
 
     .tabs {
-        flex-direction: row; /* Torna as abas verticais em telas pequenas */
+         /* Torna as abas verticais em telas pequenas */
         display: flex;
         justify-content: space-evenly;
         margin: 20px 0;
@@ -181,7 +181,7 @@ p {
         margin-right: -66%;
         margin-bottom: -46%;
     }
-}
+
 
 /* Ajustes para telas muito pequenas (smartphones em modo retrato) */
 @media (max-width: 480px) {
@@ -194,7 +194,9 @@ p {
     }
 
     .tabs {
-        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0;
     }
 
     .tab {
