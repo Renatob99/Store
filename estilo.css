@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', 'Noto';
-    background: linear-gradient(to bottom, #1d2c3a, #4682B4); /* Gradiente no fundo */
+    background: linear-gradient(to bottom, #1d2c3a, #4682b4); /* Gradiente no fundo */
     color: white;
     text-align: center;
     margin: 0;
@@ -39,9 +39,11 @@ p {
 
 .tabs {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 20px 0;
 }
+
+
 
 .tab {
     background: linear-gradient(to bottom, #ffffff, #dddddd); /* Gradiente nas abas */
@@ -101,15 +103,18 @@ p {
     margin: 10px;
 }
 
+
 .link {
     text-decoration: none;
     color: black;
 }
 
-.product img {
+.product img  {
     width: 100%;
     border-radius: 10px;
 }
+
+
 
 #foto {
     width: 30%;
@@ -142,7 +147,7 @@ p {
     }
 
     .tabs {
-        flex-direction: column; /* Torna as abas verticais em telas pequenas */
+        flex-direction: row; /* Torna as abas verticais em telas pequenas */
         align-items: center;
     }
 
@@ -186,7 +191,7 @@ p {
     }
 
     .tabs {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .tab {
